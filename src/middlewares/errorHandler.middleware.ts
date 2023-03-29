@@ -1,7 +1,6 @@
 import {Request, Response, NextFunction} from 'express';
 import {StatusCodes, getReasonPhrase} from 'http-status-codes';
-import {ValidationError} from "../errors/ValidationError";
-import CustomError from "../errors/CustomError";
+import CustomError, {ValidationError} from "../errors";
 
 class ErrorHandlerMiddleware {
     handle(err: Error, req: Request, res: Response, next: NextFunction) {
