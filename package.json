@@ -1,0 +1,31 @@
+{
+  "name": "irolegroup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irole/irolegroup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irole/irolegroup/issues"
+  },
+  "homepage": "https://github.com/irole/irolegroup#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "typescript": "^5.0.2"
+  }
+}
